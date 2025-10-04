@@ -10,6 +10,7 @@ python redis_connection.py
 ```
 
 ```
+python celery_app.py
 celery -A tasks.celery_app worker --loglevel=info
 ```
 
